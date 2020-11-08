@@ -1,5 +1,6 @@
-//反转一个单链表
-public ListNode reverseList(ListNode head) {
+//反转链表
+class Solution {
+    public ListNode reverseList(ListNode head) {
        ListNode newHead = null;
        ListNode cur = head;
        ListNode prev = null;
@@ -14,3 +15,4 @@ public ListNode reverseList(ListNode head) {
         }
         return newHead;
     }
+}
